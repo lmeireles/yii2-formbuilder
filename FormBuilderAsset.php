@@ -7,7 +7,7 @@ use yii\base\InvalidConfigException;
 
 class FormBuilderAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/meysampg/yii2-formbuilder/dist';
+    public $sourcePath = '@npm/formBuilder/dist';
 
     public function init()
     {
