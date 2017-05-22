@@ -7,15 +7,12 @@ use yii\base\InvalidConfigException;
 
 class FormBuilderAsset extends AssetBundle
 {
-    public $sourcePath = '@npm/formBuilder';
+    public $sourcePath = '@vendor/kevinchappell/form-builder/dist';
 
     public function init()
     {
-        // Add css file based on app environment
-        $this->css[] = 'css/simple.css';
-
-        // Add js file based on app environment
-        $this->js[] = 'formBuilder.js';
+        $this->js[] = 'form-builder.min.js';
+        $this->js[] = 'form-render.min.js';
     }
 
     public $depends = [

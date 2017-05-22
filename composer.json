@@ -12,17 +12,11 @@
     ],
     "require": {
         "yiisoft/yii2": "*",
-        "npm-asset/formBuilder": "*"
+        "kevinchappell/form-builder": "^2.2.3"
     },
     "autoload": {
         "psr-4": {
             "meysampg\\formbuilder\\": ""
-        }
-    },
-    "extra": {
-        "asset-installer-paths": {
-            "npm-asset-library": "vendor/npm",
-            "bower-asset-library": "vendor/bower"
         }
     }
 }
